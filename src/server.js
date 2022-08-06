@@ -4,7 +4,7 @@ import React from "react";
 import ReactDOMServer from "react-dom/server";
 import App from "./App.jsx";
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 /**
  * Render an HTML page as a string.
@@ -67,6 +67,7 @@ function page(initialData) {
 }
 
 const app = express();
+app.use(express.json({ extended: false }));
 
 app.get("/", (_req, res) => {
   const initialData = {
