@@ -75,7 +75,8 @@ every class in the Object 'Element' is accessible in 'in' & 'out" function with 
 - 'In' function as a callback to call at the end of the transition of the view <br>
 - 'Out' function as 2 callback 'NextShow' to render the next view and 'OutFinish' to call the end of the transition of the view
 
-You have also 3 Functions <br><br>
+You have also 3 Functions
+
 - TIME is a requestanimationframe function who run automatically <br>
 - SIZE who run at the end of a resizing <br>
 - DEBUG who run if he detect #DEBUG in the path of the url
