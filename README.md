@@ -1,9 +1,5 @@
-# GRB FF FRAMEWORK Quickstart ⚛️ 📦
+# GRB F*** FRAMEWORK Quickstart ⚛️ 📦
 > 
-
-
-
-# F*** FRAMEWORK
 
 Starter template for server-side and client-side rendering 
 Fully configurable serverside for seo & swap to client side when the website is loaded
