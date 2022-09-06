@@ -69,13 +69,13 @@ The Manager is a Vanilla JS who run 'in' & 'out' function everytime the page mou
 
 every class in the Object 'Element' is accessible in 'in' & 'out" function with this.DOM.[name of you key object]
 
-'In' function as a callback to call at the end of the transition of the view
+'In' function as a callback to call at the end of the transition of the view <br></br>
 'Out' function as 2 callback 'NextShow' to render the next view and 'OutFinish' to call the end of the transition of the view
 
-You have also 3 Function 
-TIME is a requestanimationframe function who run automatically 
-SIZE who run at the end of a resizing
-DEBUG who run if he detect #DEBUG in the path of the url
+You have also 3 Function <br></br>
+TIME is a requestanimationframe function who run automatically <br></br>
+SIZE who run at the end of a resizing <br></br>
+DEBUG who run if he detect #DEBUG in the path of the url <br></br>
 
 <img src="https://drive.google.com/uc?export=view&id=103a9DM7N0VPhYwpeJAJ6mIWROkNnB3NL" alt="drawing" width="500"/>
 
