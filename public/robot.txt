@@ -1,0 +1,8 @@
+User-Agent : *
+Allow: /
+
+Sitemap: [LIEN DU SITE WEB/sitemap.xml](LIEN DU SITE WEB/sitemap.xml)
+Sitemap: [LIEN DU SITE WEB/sitemaps.xml](LIEN DU SITE WEB/sitemaps.xml)
+
+GO CREATE XML SITEMAP TO ADD IN THE FOLDER
+https://www.xml-sitemaps.com/

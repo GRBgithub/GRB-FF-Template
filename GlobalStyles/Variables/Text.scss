@@ -1,0 +1,24 @@
+%text-typographie {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+%text-xl {
+    @extend %text-typographie;
+    font-size: 6rem;
+}
+%text-l {
+    @extend %text-typographie;
+    font-size: 5rem;
+}
+%text-m {
+    @extend %text-typographie;
+    font-size: 3rem;
+}
+%text-s {
+    @extend %text-typographie;
+    font-size: 2.25rem;
+}
+%text-xs {
+    @extend %text-typographie;
+    font-size: 1.8rem;
+}

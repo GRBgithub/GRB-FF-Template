@@ -1,0 +1,26 @@
+%title-typographie {
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+%title-xl {
+    @extend %title-typographie;
+    font-size: 25rem;
+}
+%title-l {
+    @extend %title-typographie;
+    font-size: 15rem;
+}
+%title-m {
+    @extend %title-typographie;
+    font-size: 10rem;
+}
+%title-s {
+    @extend %title-typographie;
+    font-size: 8rem;
+}
+%title-xs {
+    @extend %title-typographie;
+    font-size: 4rem;
+}

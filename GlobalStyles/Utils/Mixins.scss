@@ -1,0 +1,27 @@
+%cover {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+%center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+%column {
+  display: flex;
+  flex-direction: column;
+}
+
+%reset-Btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
