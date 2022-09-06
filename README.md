@@ -16,6 +16,9 @@ Fully configurable serverside for seo & swap to client side when the website is 
 - SSR
 - Auto Generated Code 
 - Vercel Config
+- Optimized Webpack
+- Creative Developer Friendly
+- Auto index of SCSS File
 
 
 ## Tech Stack
