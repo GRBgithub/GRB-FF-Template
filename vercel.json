@@ -1,10 +1,10 @@
 { 
    "version": 2, 
-   "name": "FF", 
+   "name": "ff-template", 
    "builds": [ 
      { "src": "/dist/app.js", "use": "@vercel/node" } 
    ], 
    "routes": [ 
      { "src": "/(.*)", "dest": "/dist/app.js" } 
-   ] 
+   ]
  }
