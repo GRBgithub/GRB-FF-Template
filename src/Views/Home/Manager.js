@@ -33,6 +33,7 @@ export default class Manager extends Views {
   }
 
   out({ NextUrl, NextShow, OutFinish }) {
+    this.Galaxy.hide();
     this.animation = GSAP.timeline({
       onStart: () => {
         NextShow();
