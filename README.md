@@ -1,15 +1,15 @@
-# GRB F*** FRAMEWORK Quickstart ⚛️ 📦
+# GRB F*** FRAMEWORK Quickstart 💣💥
 > 
 
 Starter template for server-side and client-side rendering 
 Fully configurable serverside for seo & swap to client side when the website is loaded
 
-## Deploy
+## Deploy🏄‍♀️
 
 To deploy to vercel you need to get the dist folder in your github
 Fix soon
 
-## Features
+## Features🍑
 
 - Async Transition
 - Optimized SEO
@@ -22,14 +22,14 @@ Fix soon
 - Auto index of SCSS File
 
 
-## Tech Stack
+## Tech Stack📦
 
 **Client:** React, Vanilla JS
 
 **Server:** Node, Express
 
 
-## Installation
+## Installation📟
 
 Need to run dev command to code properly
 
@@ -38,7 +38,7 @@ Need to run dev command to code properly
   npm run build
   npm run dev
 ```
-## Directory 
+## Directory 🗂️
 
 ### `Views` 
  Create a Folder a page for your website with 3 Files
@@ -94,7 +94,7 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 
 
 
-## Support
+## Support✒️📫
 
 For support, email pro.grb.studio@gmail.com .
 
