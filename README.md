@@ -3,7 +3,8 @@
 
 Starter template for server-side and client-side rendering 
 Fully configurable serverside for seo & swap to client side when the website is loaded
-
+## Requirement
+- Nodejs 18
 ## Deploy🏄‍♀️
 
 To deploy to vercel you need to get the dist folder in your github
