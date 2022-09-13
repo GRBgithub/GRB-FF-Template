@@ -16,7 +16,7 @@ export default class Manager extends Views {
     this.animation = GSAP.timeline({
       onComplete: () => {
         InFinish();
-        this.CreateRED();
+      
       },
       defaults: { duration: 0.8, ease: "expo" },
     }).fromTo(
