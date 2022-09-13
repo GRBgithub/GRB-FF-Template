@@ -3,9 +3,9 @@
   "version": "0.4.0",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "NODE_ENV=production webpack --mode=production --config ./lib/Bundler/webpack.prod.js",
+    "build": "SET NODE_ENV=production & webpack --mode=production --config ./lib/Bundler/webpack.prod.js",
     "watch": "webpack --watch ",
-    "dev:server": "NODE_ENV=development nodemon dist",
+    "dev:server": "SET NODE_ENV=production & nodemon dist",
     "dev:watcher": "node lib/Watchers/watcher.js",
     "dev:buildwatch": "webpack --watch --config ./lib/Bundler/webpack.prod.js ",
     "dev": "concurrently \"npm run dev:watcher\" \"npm run dev:buildwatch\" \"npm run dev:server\" "
