@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "./lib/EntryPoint/Server.js",
+      "src": "./dist/index.js",
       "use": "@vercel/node"
     }
   ],
