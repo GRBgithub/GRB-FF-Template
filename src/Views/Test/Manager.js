@@ -2,13 +2,11 @@
 import GSAP from "gsap";
 import { Route } from "./Config";
 import Views from "../../../lib/Routing/Views";
-
-
 export default class Manager extends Views {
   constructor() {
     super(Route);
     this.Elements = {
-      views: `[data-key='${Route}']`,
+      views:`[data-key='${Route}']`,
     };
   }
 
@@ -16,7 +14,6 @@ export default class Manager extends Views {
     this.animation = GSAP.timeline({
       onComplete: () => {
         InFinish();
-      
       },
       defaults: { duration: 0.8, ease: "expo" },
     }).fromTo(
@@ -51,8 +48,6 @@ export default class Manager extends Views {
     );
     console.log(this.DOM.views);
   }
-
-
   TIME(e) {}
   SIZES(e) {}
   DEBUG() {}

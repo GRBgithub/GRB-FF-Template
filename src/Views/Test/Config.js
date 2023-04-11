@@ -1,10 +1,11 @@
+
 import React from "react";
 import ReactDOM from "react-dom";
-import Test from "./index.js";
+import srcViewsTest from "./index.js";
 import Manager from "./Manager";
-import ReactDOMServer from "react-dom/server";
+
 // Route for the component
-const Route = "/Test";
+const Route = "/srcViewsTest";
 
 const Init = async (_req, res) => {
   // INIT CALL API
@@ -49,6 +50,11 @@ const Render = () => {
     document.getElementById("root").appendChild(x);
   }
 
-  ReactDOM.render(<Test props={window.__INITIAL__DATA__}></Test>, document.querySelector(`[data-key='${Route}']`));
+  ReactDOM.render(
+    <srcViewsTest props={window.__INITIAL__DATA__}></srcViewsTest>,
+    document.querySelector(`[data-key='${Route}']`)
+  );
 };
 export { Route, Init, Render, Manager };
+
+  

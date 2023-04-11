@@ -1,12 +1,9 @@
-import React from "react";
-const Home = ({ props }) => {
-  return (
-    <>
-      <a className="Home" href="/Test" data-root>
-        Home
-      </a>
-      <div className="ThreejsTest fullbox cover center"></div>
-    </>
-  );
+import React from 'react';
+    const srcViewsHome = ({ props }) => {
+return (
+      <h1 className="srcViewsHome">
+         srcViewsHome 
+      </h1>
+  )
 };
-export default Home;
+export default srcViewsHome;

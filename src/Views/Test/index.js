@@ -1,9 +1,9 @@
-import React from "react";
-const Test = ({ props }) => {
-  return (
-    <a className="Test" href="/" data-root>
-      Test
-    </a>
-  );
+import React from 'react';
+    const srcViewsTest = ({ props }) => {
+return (
+      <h1 className="srcViewsTest">
+         srcViewsTest 
+      </h1>
+  )
 };
-export default Test;
+export default srcViewsTest;
